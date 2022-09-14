@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/funzioni.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="boxColore">scegli il colore </div> <br>
+    <button onclick="cambiaColore('green')">verde</button> <br>
+    <button onclick="cambiaColore('orange')">orange</button> <br>
+    <button onclick="cambiaColore('pink')">pink</button>
+    
+    
+    <h1>Calcolo eta</h1>
+    <div class="container">
+        <form >
+
+            <p>inserisci l'anno : <input type="text" id="value1"></p><br>
+            <p>inserisci il tuo anno di nascita :<input type="text" id="value2"></p><br>
+            <input type="hidden" id="operatore"value="min"></inputn>
+            <!-- <select id="operatore">
+                <option value="min">min</option>
+            </select> -->
+            <button type="button"id="calcolo"onclick="calcola()">calcolo</button>
+            <div id="result"></div>
+        </form>
+       
+    </div>
+    <script src="./assets/js/funzioni.js"></script>
+
+    
+</body>
+</html>

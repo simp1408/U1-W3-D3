@@ -1,0 +1,46 @@
+.button{
+    background-color: red; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 22px;
+    align-items: center;
+    
+
+}
+#boxColore{
+    width: 80px;
+    height: 50px;
+    padding: 25px;
+    background-color: red;
+}
+.container{
+    background-color: rgb(228, 228, 228);
+    width: 20%;
+    height: 50vh;
+    border: 2px solid black
+}
+form{
+    
+    line-height: 15px;
+}
+form p{
+    margin-left: 25px;
+}
+input {
+    padding: 10px;
+
+}
+button{
+    padding: 10px;
+   
+}
+#result{
+  text-align: center;
+   /* margin-left: 100px; */
+}
